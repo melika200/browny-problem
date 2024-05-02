@@ -1,0 +1,86 @@
+.portfolio-title span{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    border-bottom: 1px solid #e7dbdb;
+    border-top: 1px solid #eee5e5;
+    padding: 50px 0px;
+}
+.portfolio{
+            width: 60%;
+            margin: auto;
+            display: flex; 
+            padding: 30px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            height: 600px;
+}
+.moon{
+    padding: 0 10px; 
+}
+.first{
+    width: 100%; 
+    height: 100%; 
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: 15px 0px;
+}
+
+.img-lefts,.img-between ,.img-rights{
+display: flex;
+flex-direction: column;
+width: 33%;
+position: relative;
+
+}
+.img-lefts:hover .middle{
+    opacity: 1;
+}
+.img-between:hover .middle{
+    opacity: 1;
+}
+.img-rights:hover .middle{
+    opacity: 1;
+}
+.aval{
+    margin-right: 15px;
+}
+.vasad{
+    height: 450px;
+}
+.akhar{
+    height: 225px;
+    margin-left: 15px;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height: 44%;
+    width:92%;
+    background: rgba(31, 44, 108, .5);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    flex-direction: row;
+}
+.middle:hover{
+    transform: scale(0);
+    transition: all 1s;
+}
+.text{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}

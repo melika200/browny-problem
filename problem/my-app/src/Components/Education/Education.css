@@ -1,0 +1,75 @@
+.education-part{
+background-color: #f9fbfd;
+margin-top: 65px 0px; 
+}
+.title{
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ border-bottom: 1px solid #e5ebf2;
+ font-size: 30px;
+ padding: 55px 0px;
+}
+.educate-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0px;
+}
+.num{
+font-weight: bold;
+margin:10px 0px;
+}
+.job{
+    color: #999fb3;
+    font-size: 16px;
+    margin: 12px 0px;
+    font-weight: lighter;
+
+}
+.icon-educate{
+ margin-bottom: 20px;
+}
+.border-educate{
+    display: inline-block;
+    background: #b2c1ce;
+    height: 1px;
+    width: 380px;
+    margin-bottom:3px;
+    margin-left: 5px;
+
+}
+.uni{
+    font-size: 15px;
+    margin: 12px 0px;
+    font-weight: lighter; 
+}
+.uni-part{
+    display: flex;
+    flex-direction: column;
+    color: #636a82;
+    font-size: 15px;
+    margin: 12px 0px;
+    font-weight: lighter;
+
+
+}
+.uni-name{
+   margin-bottom: 20px;
+   color: #636a82;
+}
+.uni-desc{
+    max-width: 335px;
+    color:#999fb3;
+    line-height: 30px;
+}
+.border-educate-bolton{
+    display: inline-block;
+    background: #b2c1ce;
+    height: 1px;
+    width: 80px;
+    margin-bottom:3px;
+    margin-left: 5px;
+
+}

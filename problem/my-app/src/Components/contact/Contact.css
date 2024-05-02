@@ -1,0 +1,107 @@
+.contact{
+    background: #f9fbfd;
+    padding: 50px 0 100px;
+}
+.contact-title{
+    font-size: 23px;
+    padding-bottom:30px;
+    text-align: center;
+    border-bottom: 1px solid #f2ecec;
+}
+.contact-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+.contact-info{
+    margin-top: 100px;
+}
+.contact-infoo{
+    margin-top:55px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+
+}
+.name{
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: 0;
+    background: #fff;
+    color: #636a82;
+
+}
+.email{
+margin-left: 10px;
+padding: 10px;
+border: 1px solid #fff;
+border-radius: 0px;
+box-shadow: none;
+outline: 0;
+background: #fff;
+color: #636a82;
+}
+.subject{
+    width:100%;
+    padding: 10px;
+    margin: 15px 0px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: 0;
+    background: #fff;
+    color: #636a82;
+
+
+}
+.message{
+    text-align:center;
+    width: 100%;
+    height: 250px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: 0;
+    background: #fff;
+    color: #636a82;
+}
+.submit{
+    display: flex;
+    width: 100%;
+    margin-top: 23px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-transform: capitalize;
+    background: #b636ff;
+    border: 1px solid #b636ff;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+}
+.browny-items{
+    display: flex;
+    flex-direction:column;
+    margin-left:75px;
+}
+.browny-items h6{
+    font-size:18px;
+    margin-bottom:15px;
+    letter-spacing: 3px;
+}
+.browny-items p{
+    color: #9b9ea8;
+    padding-bottom: 30px;
+}
+.browny-items span{
+    color: rgb(123, 115, 115);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
